@@ -44,13 +44,13 @@ nav ul{
     font-size: 18px;
     margin-bottom: 30px;   
 }
-.header{ background-color: #FFF8F3 ;
+.header{ background-color: #f5c7a6 ;
         background-image: url(../portfolio-images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg);
 }
 
 main{ max-width: 1140px;
-      margin: 0 auto;
-      background: #FFF8F3;
+      margin: 100px 100px;
+      background: #f1eebd;
       border-radius: 10px;
       padding: 130px 150px;
 }
@@ -63,11 +63,27 @@ main{ max-width: 1140px;
       font-weight: 700;
       font-size: 35px;
 }
-.section-description{ color: #757575 ;
+.section-description{ color: #1a1919 ;
       font-size: 18px;
       margin-bottom: 30px;                
+}
+/* about section styles */
+
+.about-info-container{display: flex;
+      justify-content: space-around;
 
 }
+.about .info-title{
+    font-size: 20px;
+    color: #474747;
+}
+.info-description{ 
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+
+}
+
 
 
 
