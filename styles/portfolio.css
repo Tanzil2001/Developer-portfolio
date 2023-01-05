@@ -1,0 +1,77 @@
+.orangered{color: orangered;}
+nav{display: flex;
+justify-content: space-between;
+margin: 20px 100px;
+
+}
+.nav-title{ font-weight: 800;
+font-size: 45px;
+}
+nav li{ list-style: none;
+margin-left: 50px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn-primary{ height: 64px;
+    border: none;
+    font-weight: 700;
+    font-size: 20PX;
+    color: antiquewhite;
+    padding: 18PX 35PX;
+    border-radius: 5px;
+    background-color: orangered;
+
+}
+.banner{ margin: 0px 200px;
+         display: flex;
+         align-items: center;
+}
+.banner-title{ 
+    font-weight: 600px;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.banner-sub-title{
+    font-weight: 700px;
+    font-size: 85px; 
+    margin-bottom: 20px; 
+}
+.banner-description{
+    color:gray;
+    font-size: 18px;
+    margin-bottom: 30px;   
+}
+.header{ background-color: #FFF8F3 ;
+        background-image: url(../portfolio-images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg);
+}
+
+main{ max-width: 1140px;
+      margin: 0 auto;
+      background: #FFF8F3;
+      border-radius: 10px;
+      padding: 130px 150px;
+}
+/* section styles */
+.about{ margin-top: 130px;
+        text-align: center;
+}
+.section-title{ text-align: center;
+                margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 35px;
+}
+.section-description{ color: #757575 ;
+      font-size: 18px;
+      margin-bottom: 30px;                
+
+}
+
+
+
+
+
+
+
